@@ -6,6 +6,7 @@ import net.minecraft.nbt.NbtCompound;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(Entity.class)
@@ -28,7 +29,7 @@ public class ModEntityDataSaver implements IEntityDataSaver {
     }
 
     @Inject(method = "readNbt", at = @At("HEAD"))
-    protected void injectReadMethod(NbtCompound nbt, CallbackInfoReturnable info) {
+    protected void injectReadMethod(NbtCompound nbt, CallbackInfo info) {
         if (nbt.contains("modernsurvival.krezzr_data", 10)) {
             persistentData = nbt.getCompound("modernsurvival.krezzr_data");
         }
