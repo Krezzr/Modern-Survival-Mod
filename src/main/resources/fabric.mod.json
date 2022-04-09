@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "modernsurvival",
+  "version": "${version}",
+
+  "name": "Modern Survival",
+  "description": "Modern Survival ModPack Content",
+  "authors": [
+    "Krezzr"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modernsurvival/",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.krezzr.modernsurvival.ModernSurvival"
+    ]
+  },
+  "mixins": [
+    "modernsurvival.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
