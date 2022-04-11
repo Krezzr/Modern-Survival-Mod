@@ -1,5 +1,5 @@
 {
-    "parent": "item/emerald_bow",
+    "parent": "modernsurvival:item/emerald_bow",
     "textures": {
         "layer0": "modernsurvival:item/emerald_bow_pulling_0"
     }
