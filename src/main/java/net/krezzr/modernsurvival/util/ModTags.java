@@ -11,6 +11,10 @@ import net.minecraft.util.registry.Registry;
 
 public class ModTags {
     public static class Blocks {
+        public static final Tag.Identified<Block> MULTI_TOOLS_MINEABLE =
+                createTag("mineable/multi_tools");
+
+
 
         private static Tag.Identified<Block> createTag(String name) {
             return TagFactory.BLOCK.create(new Identifier(ModernSurvival.MOD_ID, name));

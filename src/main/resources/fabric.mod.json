@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.krezzr.modernsurvival.ModernSurvival"
+    ],
+    "client": [
+      "net.krezzr.modernsurvival.ModernSurvivalClient"
     ]
   },
   "mixins": [

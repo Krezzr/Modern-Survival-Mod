@@ -1,4 +1,20 @@
 {
-  "itemGroup.modernsurvival.modernsurvivaltab": "Modern Survival",
-  "block.modernsurvival.charcoal_block": "Charcoal Block"
+  "itemGroup.modernsurvival.modernsurvivalblockstab": "Modern Survival Blocks",
+  "itemGroup.modernsurvival.modernsurvivaltoolstab": "Modern Survival Tools",
+
+  "block.modernsurvival.charcoal_block": "Charcoal Block",
+
+  "item.modernsurvival.emerald_pickaxe": "Emerald Pickaxe",
+  "item.modernsurvival.emerald_axe": "Emerald Axe",
+  "item.modernsurvival.emerald_hoe": "Emerald Hoe",
+  "item.modernsurvival.emerald_shovel": "Emerald Shovel",
+  "item.modernsurvival.emerald_sword": "Emerald Sword",
+  "item.modernsurvival.emerald_multi_tools": "Emerald Multi Tools",
+  "item.modernsurvival.emerald_bow": "Emerald Bow",
+
+  "item.modernsurvival.emerald_helmet": "Emerald Helmet",
+  "item.modernsurvival.emerald_chestplate": "Emerald Chestplate",
+  "item.modernsurvival.emerald_leggings": "Emerald Leggings",
+  "item.modernsurvival.emerald_boots": "Emerald Boots",
+  "item.modernsurvival.emerald_horse_armor": "Emerald Horse Armor"
 }

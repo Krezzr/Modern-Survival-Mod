@@ -1,7 +1,7 @@
 package net.krezzr.modernsurvival;
 
 import net.fabricmc.api.ModInitializer;
-//import net.krezzr.modernsurvival.item.ModItems;
+import net.krezzr.modernsurvival.item.ModItems;
 import net.krezzr.modernsurvival.block.ModBlocks;
 import net.krezzr.modernsurvival.util.ModRegistries;
 import org.slf4j.Logger;
@@ -14,7 +14,7 @@ public class ModernSurvival implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-//		ModItems.registerModItems();
+		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
 		ModRegistries.registerModStuffs();

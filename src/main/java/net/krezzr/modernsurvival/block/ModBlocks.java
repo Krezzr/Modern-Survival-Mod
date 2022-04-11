@@ -16,8 +16,7 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 
     public static final Block CHARCOAL_BLOCK = registerBlock("charcoal_block",
-            new Block(FabricBlockSettings.of(Material.STONE, MapColor.BLACK).requiresTool().strength(5.0f, 6.0f)), ModItemGroup.MODERNSURVIVALTAB);
-
+            new Block(FabricBlockSettings.of(Material.STONE, MapColor.BLACK).requiresTool().strength(5.0f, 6.0f)), ModItemGroup.MODERNSURVIVALBLOCKSTAB);
 
 
 
