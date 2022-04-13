@@ -24,7 +24,7 @@ public class ModItems {
 
 //    Emerald custom tools
     public static final Item EMERALD_BOW = registerItem("emerald_bow",
-            new BowItem(new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB).maxCount(1)));
+            new BowItem(new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB).maxDamage(1534)));
     public static final Item EMERALD_MULTI_TOOLS = registerItem("emerald_multi_tools",
             new ModMultiToolsItem(ModToolMaterials.EMERALD, 3, 3f, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB)));
 
