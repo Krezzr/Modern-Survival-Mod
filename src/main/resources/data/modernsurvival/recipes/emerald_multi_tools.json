@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XYZ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "modernsurvival:emerald_axe"
+    },
+    "Y": {
+      "item": "modernsurvival:emerald_shovel"
+    },
+    "Z": {
+      "item": "modernsurvival:emerald_pickaxe"
+    }
+  },
+  "result": {
+    "item": "modernsurvival:emerald_multi_tools"
+  }
+}
