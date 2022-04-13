@@ -14,4 +14,6 @@ public class ModItemGroup {
             () -> new ItemStack(ModItems.EMERALD_PICKAXE));
     public static final ItemGroup MODERNSURVIVALARMORSTAB = FabricItemGroupBuilder.build(new Identifier(ModernSurvival.MOD_ID, "modernsurvivalarmorstab"),
             () -> new ItemStack(ModItems.EMERALD_CHESTPLATE));
+    public static final ItemGroup MODERNSURVIVALWEAPONSTAB = FabricItemGroupBuilder.build(new Identifier(ModernSurvival.MOD_ID, "modernsurvivalweaponstab"),
+            () -> new ItemStack(ModItems.EMERALD_SWORD));
 }

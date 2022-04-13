@@ -11,9 +11,12 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    EMERALD("emerald", 28, new int[]{2, 5, 7, 3}, 15,
+    EMERALD("emerald", 25, new int[]{2, 5, 7, 3}, 15,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.0f,
-            () -> Ingredient.ofItems(Items.EMERALD));
+            () -> Ingredient.ofItems(Items.EMERALD)),
+    COPPER("copper", 10, new int[]{1, 3, 4, 2}, 15,
+    SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f,
+            () -> Ingredient.ofItems(Items.COPPER_INGOT));
 //    LEATHER("leather", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.LEATHER)),
 //    CHAIN("chainmail", 15, new int[]{1, 4, 5, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.IRON_INGOT)),
 //    IRON("iron", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.IRON_INGOT)),

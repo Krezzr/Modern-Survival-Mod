@@ -1,6 +1,7 @@
 {
   "itemGroup.modernsurvival.modernsurvivalblockstab": "Modern Survival Blocks",
   "itemGroup.modernsurvival.modernsurvivaltoolstab": "Modern Survival Tools",
+  "itemGroup.modernsurvival.modernsurvivalweaponstab": "Modern Survival Weapons",
 
   "block.modernsurvival.charcoal_block": "Charcoal Block",
 
@@ -11,10 +12,22 @@
   "item.modernsurvival.emerald_sword": "Emerald Sword",
   "item.modernsurvival.emerald_multi_tools": "Emerald Multi Tools",
   "item.modernsurvival.emerald_bow": "Emerald Bow",
-
   "item.modernsurvival.emerald_helmet": "Emerald Helmet",
   "item.modernsurvival.emerald_chestplate": "Emerald Chestplate",
   "item.modernsurvival.emerald_leggings": "Emerald Leggings",
   "item.modernsurvival.emerald_boots": "Emerald Boots",
-  "item.modernsurvival.emerald_horse_armor": "Emerald Horse Armor"
+  "item.modernsurvival.emerald_horse_armor": "Emerald Horse Armor",
+
+  "item.modernsurvival.copper_pickaxe": "Copper Pickaxe",
+  "item.modernsurvival.copper_axe": "Copper Axe",
+  "item.modernsurvival.copper_hoe": "Copper Hoe",
+  "item.modernsurvival.copper_shovel": "Copper Shovel",
+  "item.modernsurvival.copper_sword": "Copper Sword",
+  "item.modernsurvival.copper_multi_tools": "Copper Multi Tools",
+  "item.modernsurvival.copper_bow": "Copper Bow",
+  "item.modernsurvival.copper_helmet": "Copper Helmet",
+  "item.modernsurvival.copper_chestplate": "Copper Chestplate",
+  "item.modernsurvival.copper_leggings": "Copper Leggings",
+  "item.modernsurvival.copper_boots": "Copper Boots",
+  "item.modernsurvival.copper_horse_armor": "Copper Horse Armor"
 }
