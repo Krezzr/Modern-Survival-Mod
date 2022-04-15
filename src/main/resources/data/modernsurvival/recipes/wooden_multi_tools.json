@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XYZ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:wooden_axe"
+    },
+    "Y": {
+      "item": "minecraft:wooden_shovel"
+    },
+    "Z": {
+      "item": "minecraft:wooden_pickaxe"
+    }
+  },
+  "result": {
+    "item": "modernsurvival:wooden_multi_tools"
+  }
+}

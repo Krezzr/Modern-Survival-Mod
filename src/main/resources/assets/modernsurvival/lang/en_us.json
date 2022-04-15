@@ -1,9 +1,26 @@
 {
   "itemGroup.modernsurvival.modernsurvivalblockstab": "Modern Survival Blocks",
   "itemGroup.modernsurvival.modernsurvivaltoolstab": "Modern Survival Tools",
+  "itemGroup.modernsurvival.modernsurvivalarmorstab": "Modern Survival Armors",
   "itemGroup.modernsurvival.modernsurvivalweaponstab": "Modern Survival Weapons",
 
   "block.modernsurvival.charcoal_block": "Charcoal Block",
+
+  "item.modernsurvival.wooden_multi_tools": "Wooden Multi Tools",
+
+  "item.modernsurvival.stone_multi_tools": "Stone Multi Tools",
+
+  "item.modernsurvival.iron_multi_tools": "Iron Multi Tools",
+  "item.modernsurvival.iron_bow": "Iron Bow",
+
+  "item.modernsurvival.golden_multi_tools": "Golden Multi Tools",
+  "item.modernsurvival.golden_bow": "Golden Bow",
+
+  "item.modernsurvival.diamond_multi_tools": "Diamond Multi Tools",
+  "item.modernsurvival.diamond_bow": "Diamond Bow",
+
+  "item.modernsurvival.netherite_multi_tools": "Netherite Multi Tools",
+  "item.modernsurvival.netherite_bow": "Netherite Bow",
 
   "item.modernsurvival.emerald_pickaxe": "Emerald Pickaxe",
   "item.modernsurvival.emerald_axe": "Emerald Axe",

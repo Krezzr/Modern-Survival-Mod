@@ -1,0 +1,6 @@
+{
+    "parent": "modernsurvival:item/netherite_bow",
+    "textures": {
+        "layer0": "modernsurvival:item/netherite_bow_pulling_0"
+    }
+}

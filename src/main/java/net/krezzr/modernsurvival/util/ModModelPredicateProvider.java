@@ -10,6 +10,10 @@ public class ModModelPredicateProvider {
 
         registerBow(ModItems.EMERALD_BOW);
         registerBow(ModItems.COPPER_BOW);
+        registerBow(ModItems.IRON_BOW);
+        registerBow(ModItems.GOLDEN_BOW);
+        registerBow(ModItems.DIAMOND_BOW);
+        registerBow(ModItems.NETHERITE_BOW);
 
     }
 

@@ -1,0 +1,6 @@
+{
+    "parent": "modernsurvival:item/golden_bow",
+    "textures": {
+        "layer0": "modernsurvival:item/golden_bow_pulling_1"
+    }
+}
