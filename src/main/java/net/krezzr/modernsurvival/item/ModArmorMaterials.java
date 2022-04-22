@@ -11,19 +11,15 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    EMERALD("emerald", 25, new int[]{2, 5, 7, 3}, 15,
-            SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.0f,
-            () -> Ingredient.ofItems(Items.EMERALD)),
     COPPER("copper", 10, new int[]{1, 3, 4, 2}, 15,
-    SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f,
-            () -> Ingredient.ofItems(Items.COPPER_INGOT));
-//    LEATHER("leather", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.LEATHER)),
-//    CHAIN("chainmail", 15, new int[]{1, 4, 5, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.IRON_INGOT)),
-//    IRON("iron", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.IRON_INGOT)),
-//    GOLD("gold", 7, new int[]{1, 3, 5, 2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.GOLD_INGOT)),
-//    DIAMOND("diamond", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.0f, () -> Ingredient.ofItems(Items.DIAMOND)),
-//    TURTLE("turtle", 25, new int[]{2, 5, 6, 2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 0.0f, 0.0f, () -> Ingredient.ofItems(Items.SCUTE)),
-//    NETHERITE("netherite", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.0f, 0.1f, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
+            SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0f, 0.0f,
+            () -> Ingredient.ofItems(Items.COPPER_INGOT), "COPPER"),
+    AMETHYST("amethyst", 20, new int[]{2, 5, 7, 2}, 25,
+            SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0f, 0.0f,
+            () -> Ingredient.ofItems(Items.AMETHYST_SHARD), "AMETHYST"),
+    EMERALD("emerald", 25, new int[]{2, 5, 7, 3}, 20,
+            SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.0f,
+            () -> Ingredient.ofItems(Items.EMERALD), "EMERALD");
 
     private static final int[] BASE_DURABILITY;
     private final String name;
@@ -34,8 +30,9 @@ public enum ModArmorMaterials implements ArmorMaterial {
     private final float toughness;
     private final float knockbackResistance;
     private final Lazy<Ingredient> repairIngredientSupplier;
+    private final String string;
 
-    private ModArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredientSupplier) {
+    ModArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredientSupplier, String toString) {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
         this.protectionAmounts = protectionAmounts;
@@ -44,6 +41,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
         this.toughness = toughness;
         this.knockbackResistance = knockbackResistance;
         this.repairIngredientSupplier = new Lazy<Ingredient>(repairIngredientSupplier);
+        this.string = toString;
     }
 
     @Override
@@ -85,6 +83,12 @@ public enum ModArmorMaterials implements ArmorMaterial {
     public float getKnockbackResistance() {
         return this.knockbackResistance;
     }
+    /*
+        I was reading dragon loot mod code, and I saw that part for levelz compatibility
+        Thank you Globox_Z for letting me use part this little part of your code
+    */
+    @Override
+    public String toString() { return this.string; }
 
     static {
         BASE_DURABILITY = new int[]{13, 15, 16, 11};

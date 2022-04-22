@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XYZ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "modernsurvival:amethyst_axe"
+    },
+    "Y": {
+      "item": "modernsurvival:amethyst_shovel"
+    },
+    "Z": {
+      "item": "modernsurvival:amethyst_pickaxe"
+    }
+  },
+  "result": {
+    "item": "modernsurvival:amethyst_multi_tools"
+  }
+}

@@ -8,14 +8,9 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    COPPER(MiningLevels.STONE, 200, 2.0f, 1.0f, 16, () -> Ingredient.ofItems(Items.COPPER_INGOT)),
-    EMERALD(MiningLevels.IRON, 1000, 5.0f, 1.0f, 19, () -> Ingredient.ofItems(Items.EMERALD));
-//    WOOD(MiningLevels.WOOD, 59, 2.0f, 0.0f, 15, () -> Ingredient.fromTag(ItemTags.PLANKS));
-//    STONE(MiningLevels.STONE, 131, 4.0f, 1.0f, 5, () -> Ingredient.fromTag(ItemTags.STONE_TOOL_MATERIALS));
-//    IRON(MiningLevels.IRON, 250, 6.0f, 2.0f, 14, () -> Ingredient.ofItems(Items.IRON_INGOT));
-//    DIAMOND(MiningLevels.DIAMOND, 1561, 8.0f, 3.0f, 10, () -> Ingredient.ofItems(Items.DIAMOND));
-//    GOLD(MiningLevels.WOOD, 32, 12.0f, 0.0f, 22, () -> Ingredient.ofItems(Items.GOLD_INGOT));
-//    NETHERITE(MiningLevels.NETHERITE, 2031, 9.0f, 4.0f, 15, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
+    COPPER(MiningLevels.STONE, 200, 2.0f, 1.0f, 16, () -> Ingredient.ofItems(Items.COPPER_INGOT), "COPPER"),
+    AMETHYST(MiningLevels.IRON, 800, 4.0f, 1.0f, 19, () -> Ingredient.ofItems(Items.AMETHYST_SHARD), "AMETHYST"),
+    EMERALD(MiningLevels.IRON, 1000, 5.0f, 1.0f, 25, () -> Ingredient.ofItems(Items.EMERALD), "EMERALD");
 
     private final int miningLevel;
     private final int itemDurability;
@@ -23,15 +18,18 @@ public enum ModToolMaterials implements ToolMaterial {
     private final float attackDamage;
     private final int enchantability;
     private final Lazy<Ingredient> repairIngredient;
+    private final String string;
 
-    private ModToolMaterials(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
+    ModToolMaterials(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient, String toString) {
         this.miningLevel = miningLevel;
         this.itemDurability = itemDurability;
         this.miningSpeed = miningSpeed;
         this.attackDamage = attackDamage;
         this.enchantability = enchantability;
-        this.repairIngredient = new Lazy<Ingredient>(repairIngredient);
+        this.repairIngredient = new Lazy<>(repairIngredient);
+        this.string = toString;
     }
+
 
     @Override
     public int getDurability() {
@@ -62,4 +60,10 @@ public enum ModToolMaterials implements ToolMaterial {
     public Ingredient getRepairIngredient() {
         return this.repairIngredient.get();
     }
+    /*
+    I was reading dragon loot mod code, and I saw that part for levelz compatibility
+    Thank you Globox_Z for letting me use part this little part of your code
+     */
+    @Override
+    public String toString() { return this.string; }
 }

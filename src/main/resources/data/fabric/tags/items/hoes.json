@@ -1,6 +1,8 @@
 {
   "replace": false,
-  "value": [
+  "values": [
+    "modernsurvival:copper_hoe",
+    "modernsurvival:amethyst_hoe",
     "modernsurvival:emerald_hoe"
   ]
 }

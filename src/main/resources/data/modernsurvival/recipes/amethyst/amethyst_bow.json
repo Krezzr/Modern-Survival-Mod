@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #X",
+    "# X",
+    " #X"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "X": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "modernsurvival:amethyst_bow"
+  }
+}

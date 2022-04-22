@@ -9,7 +9,6 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
-
     //    Wooden custom tools
     public static final Item WOODEN_MULTI_TOOLS = registerItem("wooden_multi_tools",
             new ModMultiToolsItem(ToolMaterials.WOOD, 6, -3.4f, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB).maxDamage(177)));
@@ -98,6 +97,33 @@ public class ModItems {
     public static final Item EMERALD_HORSE_ARMOR = registerItem("emerald_horse_armor",
             new HorseArmorItem(15, "emerald", new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
 
+    //Amethyst tools
+    public static final Item AMETHYST_PICKAXE = registerItem("amethyst_pickaxe",
+            new ModPickaxeItem(ModToolMaterials.AMETHYST, 3, -2.8f, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB)));
+    public static final Item AMETHYST_AXE = registerItem("amethyst_axe",
+            new ModAxeItem(ModToolMaterials.AMETHYST, 7, -3.0f, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB)));
+    public static final Item AMETHYST_HOE = registerItem("amethyst_hoe",
+            new ModHoeItem(ModToolMaterials.AMETHYST, -1, 0.0f, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB)));
+    public static final Item AMETHYST_SHOVEL = registerItem("amethyst_shovel",
+            new ShovelItem(ModToolMaterials.AMETHYST, 3, -3.0f, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB)));
+    public static final Item AMETHYST_SWORD = registerItem("amethyst_sword",
+            new SwordItem(ModToolMaterials.AMETHYST, 3, -2.4f, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALWEAPONSTAB)));
+    //Amethyst custom tools
+    public static final Item AMETHYST_BOW = registerItem("amethyst_bow",
+            new BowItem(new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALWEAPONSTAB).maxDamage(4850)));
+    public static final Item AMETHYST_MULTI_TOOLS = registerItem("amethyst_multi_tools",
+            new ModMultiToolsItem(ModToolMaterials.AMETHYST, 7, -3.2f, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB).maxDamage(2400)));
+    //Amethyst Armor
+    public static final Item AMETHYST_HELMET = registerItem("amethyst_helmet",
+            new ArmorItem(ModArmorMaterials.AMETHYST, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
+    public static final Item AMETHYST_CHESTPLATE = registerItem("amethyst_chestplate",
+            new ArmorItem(ModArmorMaterials.AMETHYST, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
+    public static final Item AMETHYST_LEGGINGS = registerItem("amethyst_leggings",
+            new ArmorItem(ModArmorMaterials.AMETHYST, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
+    public static final Item AMETHYST_BOOTS = registerItem("amethyst_boots",
+            new ArmorItem(ModArmorMaterials.AMETHYST, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
+    public static final Item AMETHYST_HORSE_ARMOR = registerItem("amethyst_horse_armor",
+            new HorseArmorItem(10, "amethyst", new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
 
 
 

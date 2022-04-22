@@ -13,11 +13,8 @@ public class ModernSurvival implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-
 		ModRegistries.registerModStuffs();
-
 	}
 }

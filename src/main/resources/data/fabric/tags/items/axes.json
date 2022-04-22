@@ -1,6 +1,17 @@
 {
   "replace": false,
-  "value": [
-    "modernsurvival:emerald_axe"
+  "values": [
+    "modernsurvival:copper_axe",
+    "modernsurvival:amethyst_axe",
+    "modernsurvival:emerald_axe",
+    "modernsurvival:wooden_multi_tools",
+    "modernsurvival:stone_multi_tools",
+    "modernsurvival:iron_multi_tools",
+    "modernsurvival:golden_multi_tools",
+    "modernsurvival:diamond_multi_tools",
+    "modernsurvival:netherite_multi_tools",
+    "modernsurvival:copper_multi_tools",
+    "modernsurvival:amethyst_multi_tools",
+    "modernsurvival:emerald_multi_tools"
   ]
 }

@@ -1,6 +1,8 @@
 {
   "replace": false,
-  "value": [
+  "values": [
+    "modernsurvival:copper_sword",
+    "modernsurvival:amethyst_sword",
     "modernsurvival:emerald_sword"
   ]
 }
