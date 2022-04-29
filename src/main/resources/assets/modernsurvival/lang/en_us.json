@@ -59,5 +59,31 @@
   "item.modernsurvival.amethyst_chestplate": "Amethyst Chestplate",
   "item.modernsurvival.amethyst_leggings": "Amethyst Leggings",
   "item.modernsurvival.amethyst_boots": "Amethyst Boots",
-  "item.modernsurvival.amethyst_horse_armor": "Amethyst Horse Armor"
+  "item.modernsurvival.amethyst_horse_armor": "Amethyst Horse Armor",
+
+  "item.modernsurvival.flint_pickaxe": "Flint Pickaxe",
+  "item.modernsurvival.flint_axe": "Flint Axe",
+  "item.modernsurvival.flint_hoe": "Flint Hoe",
+  "item.modernsurvival.flint_shovel": "Flint Shovel",
+  "item.modernsurvival.flint_sword": "Flint Sword",
+  "item.modernsurvival.flint_multi_tools": "Flint Multi Tools",
+  "item.modernsurvival.flint_bow": "Flint Bow",
+  "item.modernsurvival.flint_helmet": "Flint Helmet",
+  "item.modernsurvival.flint_chestplate": "Flint Chestplate",
+  "item.modernsurvival.flint_leggings": "Flint Leggings",
+  "item.modernsurvival.flint_boots": "Flint Boots",
+  "item.modernsurvival.flint_horse_armor": "Flint Horse Armor",
+
+  "item.modernsurvival.quartz_pickaxe": "Quartz Pickaxe",
+  "item.modernsurvival.quartz_axe": "Quartz Axe",
+  "item.modernsurvival.quartz_hoe": "Quartz Hoe",
+  "item.modernsurvival.quartz_shovel": "Quartz Shovel",
+  "item.modernsurvival.quartz_sword": "Quartz Sword",
+  "item.modernsurvival.quartz_multi_tools": "Quartz Multi Tools",
+  "item.modernsurvival.quartz_bow": "Quartz Bow",
+  "item.modernsurvival.quartz_helmet": "Quartz Helmet",
+  "item.modernsurvival.quartz_chestplate": "Quartz Chestplate",
+  "item.modernsurvival.quartz_leggings": "Quartz Leggings",
+  "item.modernsurvival.quartz_boots": "Quartz Boots",
+  "item.modernsurvival.quartz_horse_armor": "Quartz Horse Armor"
 }

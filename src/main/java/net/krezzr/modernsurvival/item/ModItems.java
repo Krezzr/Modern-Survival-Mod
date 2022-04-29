@@ -125,6 +125,61 @@ public class ModItems {
     public static final Item AMETHYST_HORSE_ARMOR = registerItem("amethyst_horse_armor",
             new HorseArmorItem(10, "amethyst", new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
 
+    //    Flint tools
+    public static final Item FLINT_PICKAXE = registerItem("flint_pickaxe",
+            new ModPickaxeItem(ModToolMaterials.FLINT, 2, -2.8f, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB)));
+    public static final Item FLINT_AXE = registerItem("flint_axe",
+            new ModAxeItem(ModToolMaterials.FLINT, 7, -3.2f, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB)));
+    public static final Item FLINT_HOE = registerItem("flint_hoe",
+            new ModHoeItem(ModToolMaterials.FLINT, -1, 0.0f, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB)));
+    public static final Item FLINT_SHOVEL = registerItem("flint_shovel",
+            new ShovelItem(ModToolMaterials.FLINT, 2, -3.0f, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB)));
+    public static final Item FLINT_SWORD = registerItem("flint_sword",
+            new SwordItem(ModToolMaterials.FLINT, 4, -2.4f, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALWEAPONSTAB)));
+    //    Flint custom tools
+    public static final Item FLINT_BOW = registerItem("flint_bow",
+            new BowItem(new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALWEAPONSTAB).maxDamage(751)));
+    public static final Item FLINT_MULTI_TOOLS = registerItem("flint_multi_tools",
+            new ModMultiToolsItem(ModToolMaterials.FLINT, 7, -3.5f, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB).maxDamage(300)));
+    //    Flint Armor
+    public static final Item FLINT_HELMET = registerItem("flint_helmet",
+            new ArmorItem(ModArmorMaterials.FLINT, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
+    public static final Item FLINT_CHESTPLATE = registerItem("flint_chestplate",
+            new ArmorItem(ModArmorMaterials.FLINT, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
+    public static final Item FLINT_LEGGINGS = registerItem("flint_leggings",
+            new ArmorItem(ModArmorMaterials.FLINT, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
+    public static final Item FLINT_BOOTS = registerItem("flint_boots",
+            new ArmorItem(ModArmorMaterials.FLINT, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
+    public static final Item FLINT_HORSE_ARMOR = registerItem("flint_horse_armor",
+            new HorseArmorItem(4, "flint", new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
+
+    //Quartz tools
+    public static final Item QUARTZ_PICKAXE = registerItem("quartz_pickaxe",
+            new ModPickaxeItem(ModToolMaterials.QUARTZ, 3, -2.8f, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB)));
+    public static final Item QUARTZ_AXE = registerItem("quartz_axe",
+            new ModAxeItem(ModToolMaterials.QUARTZ, 7, -3.0f, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB)));
+    public static final Item QUARTZ_HOE = registerItem("quartz_hoe",
+            new ModHoeItem(ModToolMaterials.QUARTZ, -1, 0.0f, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB)));
+    public static final Item QUARTZ_SHOVEL = registerItem("quartz_shovel",
+            new ShovelItem(ModToolMaterials.QUARTZ, 3, -3.0f, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB)));
+    public static final Item QUARTZ_SWORD = registerItem("quartz_sword",
+            new SwordItem(ModToolMaterials.QUARTZ, 3, -2.4f, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALWEAPONSTAB)));
+    //Quartz custom tools
+    public static final Item QUARTZ_BOW = registerItem("quartz_bow",
+            new BowItem(new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALWEAPONSTAB).maxDamage(4850)));
+    public static final Item QUARTZ_MULTI_TOOLS = registerItem("quartz_multi_tools",
+            new ModMultiToolsItem(ModToolMaterials.QUARTZ, 7, -3.2f, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB).maxDamage(2400)));
+    //Quartz Armor
+    public static final Item QUARTZ_HELMET = registerItem("quartz_helmet",
+            new ArmorItem(ModArmorMaterials.QUARTZ, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
+    public static final Item QUARTZ_CHESTPLATE = registerItem("quartz_chestplate",
+            new ArmorItem(ModArmorMaterials.QUARTZ, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
+    public static final Item QUARTZ_LEGGINGS = registerItem("quartz_leggings",
+            new ArmorItem(ModArmorMaterials.QUARTZ, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
+    public static final Item QUARTZ_BOOTS = registerItem("quartz_boots",
+            new ArmorItem(ModArmorMaterials.QUARTZ, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
+    public static final Item QUARTZ_HORSE_ARMOR = registerItem("quartz_horse_armor",
+            new HorseArmorItem(10, "quartz", new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
 
 
 

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XYZ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "modernsurvival:quartz_axe"
+    },
+    "Y": {
+      "item": "modernsurvival:quartz_shovel"
+    },
+    "Z": {
+      "item": "modernsurvival:quartz_pickaxe"
+    }
+  },
+  "result": {
+    "item": "modernsurvival:quartz_multi_tools"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XYZ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "modernsurvival:flint_axe"
+    },
+    "Y": {
+      "item": "modernsurvival:flint_shovel"
+    },
+    "Z": {
+      "item": "modernsurvival:flint_pickaxe"
+    }
+  },
+  "result": {
+    "item": "modernsurvival:flint_multi_tools"
+  }
+}

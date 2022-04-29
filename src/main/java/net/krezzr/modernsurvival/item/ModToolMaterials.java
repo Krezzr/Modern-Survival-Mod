@@ -8,9 +8,16 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    COPPER(MiningLevels.STONE, 200, 2.0f, 1.0f, 16, () -> Ingredient.ofItems(Items.COPPER_INGOT), "COPPER"),
-    AMETHYST(MiningLevels.IRON, 800, 4.0f, 1.0f, 19, () -> Ingredient.ofItems(Items.AMETHYST_SHARD), "AMETHYST"),
-    EMERALD(MiningLevels.IRON, 1000, 5.0f, 1.0f, 25, () -> Ingredient.ofItems(Items.EMERALD), "EMERALD");
+    FLINT(MiningLevels.STONE, 100, 1.0f, 1.0f, 5,
+            () -> Ingredient.ofItems(Items.COPPER_INGOT), "FLINT"),
+    COPPER(MiningLevels.STONE, 200, 2.0f, 1.0f, 16,
+            () -> Ingredient.ofItems(Items.COPPER_INGOT), "COPPER"),
+    AMETHYST(MiningLevels.IRON, 800, 4.0f, 1.0f, 19,
+            () -> Ingredient.ofItems(Items.AMETHYST_SHARD), "AMETHYST"),
+    QUARTZ(MiningLevels.IRON, 800, 4.0f, 1.0f, 23,
+            () -> Ingredient.ofItems(Items.AMETHYST_SHARD), "QUARTZ"),
+    EMERALD(MiningLevels.IRON, 1000, 5.0f, 1.0f, 25,
+            () -> Ingredient.ofItems(Items.EMERALD), "EMERALD");
 
     private final int miningLevel;
     private final int itemDurability;
