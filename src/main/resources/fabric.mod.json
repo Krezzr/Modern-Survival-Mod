@@ -14,7 +14,8 @@
   },
 
   "license": "MIT",
-  "icon": "assets/modernsurvival/*",
+  "icon": "assets/*",
+
 
   "environment": "*",
   "entrypoints": {
