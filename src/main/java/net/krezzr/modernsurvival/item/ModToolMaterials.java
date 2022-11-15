@@ -67,10 +67,7 @@ public enum ModToolMaterials implements ToolMaterial {
     public Ingredient getRepairIngredient() {
         return this.repairIngredient.get();
     }
-    /*
-    I was reading dragon loot mod code, and I saw that part for levelz compatibility
-    Thank you Globox_Z for letting me use part this little part of your code
-     */
+
     @Override
     public String toString() { return this.string; }
 }

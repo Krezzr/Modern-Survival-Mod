@@ -1,6 +1,6 @@
 package net.krezzr.modernsurvival.util;
 
-import net.fabricmc.fabric.api.command.v1.CommandRegistrationCallback;
+import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import net.fabricmc.fabric.api.entity.event.v1.ServerPlayerEvents;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.krezzr.modernsurvival.ModernSurvival;
