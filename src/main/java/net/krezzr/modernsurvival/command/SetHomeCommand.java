@@ -14,8 +14,7 @@ public class SetHomeCommand {
     public static void register(CommandDispatcher<ServerCommandSource> serverCommandSourceCommandDispatcher,
                                 CommandRegistryAccess commandRegistryAccess,
                                 CommandManager.RegistrationEnvironment registrationEnvironment) {
-        serverCommandSourceCommandDispatcher.register(CommandManager.literal("home")
-                .then(CommandManager.literal("set").executes(SetHomeCommand::run)));
+        serverCommandSourceCommandDispatcher.register(CommandManager.literal("sethome").executes(SetHomeCommand::run));
     }
     public static int run(CommandContext<ServerCommandSource> context) throws CommandSyntaxException {
         IEntityDataSaver player = (IEntityDataSaver) context.getSource().getPlayer();

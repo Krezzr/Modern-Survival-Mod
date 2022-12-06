@@ -13,8 +13,7 @@ public class ReturnHomeCommand {
     public static void register(CommandDispatcher<ServerCommandSource> serverCommandSourceCommandDispatcher,
                                 CommandRegistryAccess commandRegistryAccess,
                                 CommandManager.RegistrationEnvironment registrationEnvironment) {
-        serverCommandSourceCommandDispatcher.register(CommandManager.literal("home")
-                .then(CommandManager.literal("set").executes(SetHomeCommand::run)));
+        serverCommandSourceCommandDispatcher.register(CommandManager.literal("home").executes(ReturnHomeCommand::run));
     }
 
     private static int run(CommandContext<ServerCommandSource> context) throws CommandSyntaxException {
