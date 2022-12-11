@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "glowing_carpet",
+  "key": {
+    "#": {
+      "item": "modernsurvival:glowing_blue_wool"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "item": "modernsurvival:glowing_blue_carpet"
+  }
+}
