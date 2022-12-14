@@ -20,7 +20,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     AMETHYST("amethyst", 20, new int[]{2, 5, 7, 2}, 19,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0f, 0.0f,
             () -> Ingredient.ofItems(Items.AMETHYST_SHARD), "AMETHYST"),
-    QUARTZ("amethyst", 20, new int[]{2, 5, 7, 2}, 23,
+    QUARTZ("quartz", 20, new int[]{2, 5, 7, 2}, 23,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0f, 0.0f,
             () -> Ingredient.ofItems(Items.QUARTZ), "QUARTZ"),
     EMERALD("emerald", 25, new int[]{2, 5, 7, 3}, 25,
@@ -35,7 +35,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     private final SoundEvent equipSound;
     private final float toughness;
     private final float knockbackResistance;
-    private final Lazy<Ingredient> repairIngredientSupplier;
+    private final Supplier<Ingredient> repairIngredientSupplier;
     private final String string;
 
     ModArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredientSupplier, String toString) {
@@ -46,7 +46,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
         this.equipSound = equipSound;
         this.toughness = toughness;
         this.knockbackResistance = knockbackResistance;
-        this.repairIngredientSupplier = new Lazy<Ingredient>(repairIngredientSupplier);
+        this.repairIngredientSupplier = repairIngredientSupplier;
         this.string = toString;
     }
 
@@ -89,10 +89,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     public float getKnockbackResistance() {
         return this.knockbackResistance;
     }
-    /*
-        I was reading dragon loot mod code, and I saw that part for levelz compatibility
-        Thank you Globox_Z for letting me use part this little part of your code
-    */
+
     @Override
     public String toString() { return this.string; }
 

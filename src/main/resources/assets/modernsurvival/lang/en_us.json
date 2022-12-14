@@ -4,6 +4,9 @@
   "itemGroup.modernsurvival.modernsurvivalarmorstab": "Modern Survival Armors",
   "itemGroup.modernsurvival.modernsurvivalweaponstab": "Modern Survival Weapons",
 
+  "enchantment.modernsurvival.smelting_enchantment": "Smelting",
+  "enchantment.modernsurvival.smelting_enchantment.desc": "Automatically smelt blocks you mine.",
+
   "block.modernsurvival.charcoal_block": "Charcoal Block",
 
   "block.modernsurvival.glowing_white_wool": "Glowing White Wool",

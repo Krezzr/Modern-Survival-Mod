@@ -8,15 +8,15 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    FLINT(MiningLevels.STONE, 100, 1.0f, 1.0f, 5,
+    FLINT(1, 100, 1.0f, 1.0f, 5,
             () -> Ingredient.ofItems(Items.COPPER_INGOT), "FLINT"),
-    COPPER(MiningLevels.STONE, 200, 2.0f, 1.0f, 16,
+    COPPER(1, 200, 2.0f, 1.0f, 16,
             () -> Ingredient.ofItems(Items.COPPER_INGOT), "COPPER"),
-    AMETHYST(MiningLevels.IRON, 800, 4.0f, 1.0f, 19,
+    AMETHYST(2, 800, 4.0f, 1.0f, 19,
             () -> Ingredient.ofItems(Items.AMETHYST_SHARD), "AMETHYST"),
-    QUARTZ(MiningLevels.IRON, 800, 4.0f, 1.0f, 23,
+    QUARTZ(2, 800, 4.0f, 1.0f, 23,
             () -> Ingredient.ofItems(Items.AMETHYST_SHARD), "QUARTZ"),
-    EMERALD(MiningLevels.IRON, 1000, 5.0f, 1.0f, 25,
+    EMERALD(2, 1000, 5.0f, 1.0f, 25,
             () -> Ingredient.ofItems(Items.EMERALD), "EMERALD");
 
     private final int miningLevel;
@@ -24,7 +24,7 @@ public enum ModToolMaterials implements ToolMaterial {
     private final float miningSpeed;
     private final float attackDamage;
     private final int enchantability;
-    private final Lazy<Ingredient> repairIngredient;
+    private final Supplier<Ingredient> repairIngredient;
     private final String string;
 
     ModToolMaterials(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability, Supplier<Ingredient> repairIngredient, String toString) {
@@ -33,7 +33,7 @@ public enum ModToolMaterials implements ToolMaterial {
         this.miningSpeed = miningSpeed;
         this.attackDamage = attackDamage;
         this.enchantability = enchantability;
-        this.repairIngredient = new Lazy<>(repairIngredient);
+        this.repairIngredient = repairIngredient;
         this.string = toString;
     }
 
@@ -69,5 +69,7 @@ public enum ModToolMaterials implements ToolMaterial {
     }
 
     @Override
-    public String toString() { return this.string; }
+    public String toString() {
+        return this.string;
+    }
 }

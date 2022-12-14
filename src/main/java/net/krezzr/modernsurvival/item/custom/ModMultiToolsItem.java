@@ -60,8 +60,8 @@ public class ModMultiToolsItem extends MiningToolItem {
         Optional<BlockState> optional = this.getStrippedState(blockState);
         Optional<BlockState> optional2 = Oxidizable.getDecreasedOxidationState(blockState);
         Optional<BlockState> optional3 = Optional.ofNullable(HoneycombItem.WAXED_TO_UNWAXED_BLOCKS.get().get(blockState.getBlock())).map(block -> block.getStateWithProperties(blockState));
-        ItemStack itemStack = context.getStack();
         Optional<BlockState> optional4 = Optional.empty();
+        ItemStack itemStack = context.getStack();
         if (context.getSide() != Direction.DOWN) {
             BlockState blockState2 = PATH_STATES.get(blockState.getBlock());
             BlockState blockState3 = null;

@@ -1,6 +1,7 @@
 package net.krezzr.modernsurvival;
 
 import net.fabricmc.api.ModInitializer;
+import net.krezzr.modernsurvival.Enchantment.ModEnchantments;
 import net.krezzr.modernsurvival.item.ModItems;
 import net.krezzr.modernsurvival.block.ModBlocks;
 import net.krezzr.modernsurvival.util.ModRegistries;
@@ -16,5 +17,6 @@ public class ModernSurvival implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModRegistries.registerModStuffs();
+		ModEnchantments.registerModEnchantments();
 	}
 }
