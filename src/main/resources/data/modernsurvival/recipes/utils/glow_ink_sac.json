@@ -1,5 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#%",
+    "%%"
+  ],
   "key": {
     "#": {
       "item": "minecraft:ink_sac"
@@ -8,10 +12,6 @@
       "item": "minecraft:glowstone_dust"
     }
   },
-  "pattern": [
-    "#%",
-    "%%"
-  ],
   "result": {
     "count": 1,
     "item": "minecraft:glow_ink_sac"

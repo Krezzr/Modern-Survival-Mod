@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WBW",
+    "BSB",
+    "WBW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:yellow_wool"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "S": {
+      "item": "minecraft:slime_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:sponge"
+  }
+}
