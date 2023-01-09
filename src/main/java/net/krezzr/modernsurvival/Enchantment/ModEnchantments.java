@@ -9,7 +9,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModEnchantments {
     public static Enchantment SMELTING_ENCHANTMENT = register("smelting_enchantment",
-            new ModSmeltingEnchantment(Enchantment.Rarity.RARE, EnchantmentTarget.DIGGER, EquipmentSlot.MAINHAND));
+            new ModSmeltingEnchantment(Enchantment.Rarity.VERY_RARE, EnchantmentTarget.DIGGER, EquipmentSlot.MAINHAND));
 
     private static Enchantment register(String name, Enchantment enchantment) {
         return Registry.register(Registry.ENCHANTMENT, new Identifier(ModernSurvival.MOD_ID, name), enchantment);
