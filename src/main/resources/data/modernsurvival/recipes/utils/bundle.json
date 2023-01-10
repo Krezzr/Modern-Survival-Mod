@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#$#",
+    "$%$",
+    "#$#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+    "$": {
+      "item": "minecraft:leather"
+    },
+    "%": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "minecraft:bundle"
+  }
+}

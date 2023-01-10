@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#$#",
+    "$%$",
+    "#$#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:feather"
+    },
+    "$": {
+      "item": "minecraft:chicken"
+    },
+    "%": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "minecraft:chicken_spawn_egg"
+  }
+}
