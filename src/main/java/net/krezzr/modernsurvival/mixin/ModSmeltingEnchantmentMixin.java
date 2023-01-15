@@ -6,6 +6,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.inventory.SimpleInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.recipe.RecipeType;
@@ -29,7 +30,7 @@ public class ModSmeltingEnchantmentMixin {
         List<ItemStack> returnValue = info.getReturnValue();
         List<ItemStack> items = new ArrayList<>();
 
-        if (EnchantmentHelper.getLevel(ModEnchantments.SMELTING_ENCHANTMENT, stack) == 0) {
+        if (!(entity instanceof PlayerEntity) || EnchantmentHelper.getLevel(ModEnchantments.SMELTING_ENCHANTMENT, stack) == 0) {
             info.setReturnValue(returnValue);
             return;
         }
@@ -41,12 +42,14 @@ public class ModSmeltingEnchantmentMixin {
                 ItemStack smelted = recipe.get().getOutput().copy();
                 smelted.setCount(itemStack.getCount());
                 items.add(smelted);
+                int experience = (int) recipe.get().getExperience();
+                int count = smelted.getCount();
+                ((PlayerEntity)entity).addExperience(experience * count);
             } else {
                 items.add(itemStack);
             }
         }
 
         info.setReturnValue(items);
-
     }
 }

@@ -71,16 +71,16 @@ public class ModItems {
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB).maxDamage(600)));
     //    Copper Armor
     public static final Item COPPER_HELMET = registerItem("copper_helmet",
-            new ArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.HEAD,
+            new ModArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.HEAD,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
     public static final Item COPPER_CHESTPLATE = registerItem("copper_chestplate",
-            new ArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.CHEST,
+            new ModArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.CHEST,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
     public static final Item COPPER_LEGGINGS = registerItem("copper_leggings",
-            new ArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.LEGS,
+            new ModArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.LEGS,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
     public static final Item COPPER_BOOTS = registerItem("copper_boots",
-            new ArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.FEET,
+            new ModArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
     public static final Item COPPER_HORSE_ARMOR = registerItem("copper_horse_armor",
             new HorseArmorItem(4, "copper",
@@ -110,16 +110,16 @@ public class ModItems {
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB).maxDamage(3000)));
     //Emerald Armor
     public static final Item EMERALD_HELMET = registerItem("emerald_helmet",
-            new ArmorItem(ModArmorMaterials.EMERALD, EquipmentSlot.HEAD,
+            new ModArmorItem(ModArmorMaterials.EMERALD, EquipmentSlot.HEAD,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
     public static final Item EMERALD_CHESTPLATE = registerItem("emerald_chestplate",
-            new ArmorItem(ModArmorMaterials.EMERALD, EquipmentSlot.CHEST,
+            new ModArmorItem(ModArmorMaterials.EMERALD, EquipmentSlot.CHEST,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
     public static final Item EMERALD_LEGGINGS = registerItem("emerald_leggings",
-            new ArmorItem(ModArmorMaterials.EMERALD, EquipmentSlot.LEGS,
+            new ModArmorItem(ModArmorMaterials.EMERALD, EquipmentSlot.LEGS,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
     public static final Item EMERALD_BOOTS = registerItem("emerald_boots",
-            new ArmorItem(ModArmorMaterials.EMERALD, EquipmentSlot.FEET,
+            new ModArmorItem(ModArmorMaterials.EMERALD, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
     public static final Item EMERALD_HORSE_ARMOR = registerItem("emerald_horse_armor",
             new HorseArmorItem(15, "emerald",
@@ -149,16 +149,16 @@ public class ModItems {
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB).maxDamage(2400)));
     //Amethyst Armor
     public static final Item AMETHYST_HELMET = registerItem("amethyst_helmet",
-            new ArmorItem(ModArmorMaterials.AMETHYST, EquipmentSlot.HEAD,
+            new ModArmorItem(ModArmorMaterials.AMETHYST, EquipmentSlot.HEAD,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
     public static final Item AMETHYST_CHESTPLATE = registerItem("amethyst_chestplate",
-            new ArmorItem(ModArmorMaterials.AMETHYST, EquipmentSlot.CHEST,
+            new ModArmorItem(ModArmorMaterials.AMETHYST, EquipmentSlot.CHEST,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
     public static final Item AMETHYST_LEGGINGS = registerItem("amethyst_leggings",
-            new ArmorItem(ModArmorMaterials.AMETHYST, EquipmentSlot.LEGS,
+            new ModArmorItem(ModArmorMaterials.AMETHYST, EquipmentSlot.LEGS,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
     public static final Item AMETHYST_BOOTS = registerItem("amethyst_boots",
-            new ArmorItem(ModArmorMaterials.AMETHYST, EquipmentSlot.FEET,
+            new ModArmorItem(ModArmorMaterials.AMETHYST, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
     public static final Item AMETHYST_HORSE_ARMOR = registerItem("amethyst_horse_armor",
             new HorseArmorItem(10, "amethyst",
@@ -188,16 +188,16 @@ public class ModItems {
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB).maxDamage(300)));
     //    Flint Armor
     public static final Item FLINT_HELMET = registerItem("flint_helmet",
-            new ArmorItem(ModArmorMaterials.FLINT, EquipmentSlot.HEAD,
+            new ModArmorItem(ModArmorMaterials.FLINT, EquipmentSlot.HEAD,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
     public static final Item FLINT_CHESTPLATE = registerItem("flint_chestplate",
-            new ArmorItem(ModArmorMaterials.FLINT, EquipmentSlot.CHEST,
+            new ModArmorItem(ModArmorMaterials.FLINT, EquipmentSlot.CHEST,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
     public static final Item FLINT_LEGGINGS = registerItem("flint_leggings",
-            new ArmorItem(ModArmorMaterials.FLINT, EquipmentSlot.LEGS,
+            new ModArmorItem(ModArmorMaterials.FLINT, EquipmentSlot.LEGS,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
     public static final Item FLINT_BOOTS = registerItem("flint_boots",
-            new ArmorItem(ModArmorMaterials.FLINT, EquipmentSlot.FEET,
+            new ModArmorItem(ModArmorMaterials.FLINT, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
     public static final Item FLINT_HORSE_ARMOR = registerItem("flint_horse_armor",
             new HorseArmorItem(4, "flint",
@@ -227,16 +227,16 @@ public class ModItems {
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB).maxDamage(2400)));
     //Quartz Armor
     public static final Item QUARTZ_HELMET = registerItem("quartz_helmet",
-            new ArmorItem(ModArmorMaterials.QUARTZ, EquipmentSlot.HEAD,
+            new ModArmorItem(ModArmorMaterials.QUARTZ, EquipmentSlot.HEAD,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
     public static final Item QUARTZ_CHESTPLATE = registerItem("quartz_chestplate",
-            new ArmorItem(ModArmorMaterials.QUARTZ, EquipmentSlot.CHEST,
+            new ModArmorItem(ModArmorMaterials.QUARTZ, EquipmentSlot.CHEST,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
     public static final Item QUARTZ_LEGGINGS = registerItem("quartz_leggings",
-            new ArmorItem(ModArmorMaterials.QUARTZ, EquipmentSlot.LEGS,
+            new ModArmorItem(ModArmorMaterials.QUARTZ, EquipmentSlot.LEGS,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
     public static final Item QUARTZ_BOOTS = registerItem("quartz_boots",
-            new ArmorItem(ModArmorMaterials.QUARTZ, EquipmentSlot.FEET,
+            new ModArmorItem(ModArmorMaterials.QUARTZ, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
     public static final Item QUARTZ_HORSE_ARMOR = registerItem("quartz_horse_armor",
             new HorseArmorItem(10, "quartz",
