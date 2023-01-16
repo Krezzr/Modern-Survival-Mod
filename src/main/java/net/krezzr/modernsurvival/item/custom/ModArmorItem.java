@@ -8,36 +8,30 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
-import net.minecraft.item.ArmorMaterials;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import org.spongepowered.include.com.google.common.collect.ImmutableMap;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
 public class ModArmorItem extends ArmorItem {
     private static final Map<ArmorMaterial, List<StatusEffectInstance>> MATERIAL_STATUS_EFFECT_INSTANCE_MAP =
             new ImmutableMap.Builder<ArmorMaterial, List<StatusEffectInstance>>()
-                    .put(ArmorMaterials.IRON,
-                            Collections.singletonList(new StatusEffectInstance(StatusEffects.SPEED, 405, 0)))
-                    .put(ArmorMaterials.GOLD,
-                            Collections.singletonList(new StatusEffectInstance(StatusEffects.ABSORPTION, 405, 0)))
                     .put(ModArmorMaterials.AMETHYST,
-                            Collections.singletonList(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 405, 0)))
-                    .put(ModArmorMaterials.QUARTZ,
-                            Collections.singletonList(new StatusEffectInstance(StatusEffects.SLOW_FALLING, 405, 0)))
-                    .put(ArmorMaterials.DIAMOND,
-                            Collections.singletonList(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 405, 0)))
-                    .put(ModArmorMaterials.EMERALD,
-                            Collections.singletonList(new StatusEffectInstance(StatusEffects.HERO_OF_THE_VILLAGE, 405, 0)))
-                    .put(ArmorMaterials.NETHERITE,
                             Arrays.asList(
-                                    new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 405, 1),
-                                    new StatusEffectInstance(StatusEffects.STRENGTH, 405, 1)
-                            ))
+                                    new StatusEffectInstance(StatusEffects.NIGHT_VISION, 405, 0),
+                                    new StatusEffectInstance(StatusEffects.SPEED, 405, 0)))
+                    .put(ModArmorMaterials.QUARTZ,
+                            Arrays.asList(
+                                    new StatusEffectInstance(StatusEffects.SLOW_FALLING, 405, 0),
+                                    new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 405, 0)))
+                    .put(ModArmorMaterials.EMERALD,
+                            Arrays.asList(
+                                    new StatusEffectInstance(StatusEffects.HERO_OF_THE_VILLAGE, 405, 0),
+                                    new StatusEffectInstance(StatusEffects.STRENGTH, 405, 0)))
+
                     .build();
     public ModArmorItem(ArmorMaterial material, EquipmentSlot slot, Settings settings) {
         super(material, slot, settings);

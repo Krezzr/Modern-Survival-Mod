@@ -20,10 +20,10 @@ public enum ModArmorMaterials implements ArmorMaterial {
     AMETHYST("amethyst", 20, new int[]{2, 5, 7, 2}, 19,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0f, 0.0f,
             () -> Ingredient.ofItems(Items.AMETHYST_SHARD), "AMETHYST"),
-    QUARTZ("quartz", 20, new int[]{2, 5, 7, 2}, 23,
+    QUARTZ("quartz", 20, new int[]{2, 5, 6, 2}, 23,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0f, 0.0f,
             () -> Ingredient.ofItems(Items.QUARTZ), "QUARTZ"),
-    EMERALD("emerald", 25, new int[]{2, 5, 7, 3}, 25,
+    EMERALD("emerald", 25, new int[]{3, 6, 8, 3}, 25,
             SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0f, 0.0f,
             () -> Ingredient.ofItems(Items.EMERALD), "EMERALD");
 

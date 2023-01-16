@@ -16,7 +16,7 @@ public class ModItems {
 
     //    Stone custom tools
     public static final Item STONE_MULTI_TOOLS = registerItem("stone_multi_tools",
-            new ModMultiToolsItem(ToolMaterials.STONE, 7, -3.4f,
+            new ModMultiToolsItem(ToolMaterials.STONE, 6, -3.4f,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB).maxDamage(393)));
 
     //    Iron custom tools
@@ -42,7 +42,7 @@ public class ModItems {
 
     //    Netherite custom tools
     public static final Item NETHERITE_MULTI_TOOLS = registerItem("netherite_multi_tools",
-            new ModMultiToolsItem(ToolMaterials.NETHERITE, 5, -3.0f,
+            new ModMultiToolsItem(ToolMaterials.NETHERITE, 5, -2.8f,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB).maxDamage(6093)));
     public static final Item NETHERITE_BOW = registerItem("netherite_bow",
             new BowItem(new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALWEAPONSTAB).maxDamage(13218)));
@@ -67,7 +67,7 @@ public class ModItems {
     public static final Item COPPER_BOW = registerItem("copper_bow",
             new BowItem(new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALWEAPONSTAB).maxDamage(1302)));
     public static final Item COPPER_MULTI_TOOLS = registerItem("copper_multi_tools",
-            new ModMultiToolsItem(ModToolMaterials.COPPER, 7, -3.5f,
+            new ModMultiToolsItem(ModToolMaterials.COPPER, 7, -3.3f,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB).maxDamage(600)));
     //    Copper Armor
     public static final Item COPPER_HELMET = registerItem("copper_helmet",
@@ -100,13 +100,13 @@ public class ModItems {
             new ShovelItem(ModToolMaterials.EMERALD, 3, -3.0f,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB)));
     public static final Item EMERALD_SWORD = registerItem("emerald_sword",
-            new SwordItem(ModToolMaterials.EMERALD, 4, -2.4f,
+            new SwordItem(ModToolMaterials.EMERALD, 5, -2.4f,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALWEAPONSTAB)));
     //Emerald custom tools
     public static final Item EMERALD_BOW = registerItem("emerald_bow",
             new BowItem(new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALWEAPONSTAB).maxDamage(6508)));
     public static final Item EMERALD_MULTI_TOOLS = registerItem("emerald_multi_tools",
-            new ModMultiToolsItem(ModToolMaterials.EMERALD, 7, -3.2f,
+            new ModMultiToolsItem(ModToolMaterials.EMERALD, 7, -3.0f,
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB).maxDamage(3000)));
     //Emerald Armor
     public static final Item EMERALD_HELMET = registerItem("emerald_helmet",
