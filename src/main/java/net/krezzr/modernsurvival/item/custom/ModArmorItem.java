@@ -31,7 +31,6 @@ public class ModArmorItem extends ArmorItem {
                             Arrays.asList(
                                     new StatusEffectInstance(StatusEffects.HERO_OF_THE_VILLAGE, 405, 0),
                                     new StatusEffectInstance(StatusEffects.STRENGTH, 405, 0)))
-
                     .build();
     public ModArmorItem(ArmorMaterial material, EquipmentSlot slot, Settings settings) {
         super(material, slot, settings);
