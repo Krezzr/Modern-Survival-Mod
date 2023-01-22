@@ -1,23 +1,24 @@
 package net.krezzr.modernsurvival.item;
 
-import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.util.Lazy;
+
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    FLINT(1, 100, 1.0f, 1.0f, 5,
+    FLINT(1, 100, 3.0f, 1.0f, 5,
             () -> Ingredient.ofItems(Items.COPPER_INGOT), "FLINT"),
-    COPPER(1, 200, 2.0f, 1.0f, 16,
+    COPPER(1, 200, 5.0f, 1.0f, 16,
             () -> Ingredient.ofItems(Items.COPPER_INGOT), "COPPER"),
-    AMETHYST(2, 800, 4.0f, 1.0f, 19,
+    AMETHYST(2, 800, 6.0f, 1.0f, 19,
             () -> Ingredient.ofItems(Items.AMETHYST_SHARD), "AMETHYST"),
-    QUARTZ(2, 800, 4.0f, 1.0f, 23,
+    QUARTZ(2, 800, 6.0f, 1.0f, 23,
             () -> Ingredient.ofItems(Items.AMETHYST_SHARD), "QUARTZ"),
-    EMERALD(2, 1000, 5.0f, 1.0f, 25,
-            () -> Ingredient.ofItems(Items.EMERALD), "EMERALD");
+    EMERALD(3, 1000, 8.0f, 1.0f, 25,
+            () -> Ingredient.ofItems(Items.EMERALD), "EMERALD"),
+    BREBIUM(4, 15000, 16.0f, 1.0f, 30,
+                    () -> Ingredient.ofItems(ModItems.BREBIUM_INGOT), "BREBIUM");
 
     private final int miningLevel;
     private final int itemDurability;

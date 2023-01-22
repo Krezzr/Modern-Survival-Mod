@@ -7,7 +7,6 @@ import net.minecraft.util.Identifier;
 
 public class ModModelPredicateProvider {
     public static void registerModModels() {
-
         registerBow(ModItems.EMERALD_BOW);
         registerBow(ModItems.AMETHYST_BOW);
         registerBow(ModItems.COPPER_BOW);
@@ -17,10 +16,8 @@ public class ModModelPredicateProvider {
         registerBow(ModItems.GOLDEN_BOW);
         registerBow(ModItems.DIAMOND_BOW);
         registerBow(ModItems.NETHERITE_BOW);
-
+        registerBow(ModItems.BREBIUM_BOW);
     }
-
-
     private static void registerBow(Item bow) {
         FabricModelPredicateProviderRegistry.register(bow, new Identifier("pull"),
                 (stack, world, entity, seed) -> {

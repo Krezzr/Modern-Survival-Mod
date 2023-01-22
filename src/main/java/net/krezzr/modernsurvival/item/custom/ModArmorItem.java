@@ -31,6 +31,13 @@ public class ModArmorItem extends ArmorItem {
                             Arrays.asList(
                                     new StatusEffectInstance(StatusEffects.HERO_OF_THE_VILLAGE, 405, 0),
                                     new StatusEffectInstance(StatusEffects.STRENGTH, 405, 0)))
+                    .put(ModArmorMaterials.BREBIUM,
+                            Arrays.asList(
+                                    new StatusEffectInstance(StatusEffects.NIGHT_VISION, 405, 0),
+                                    new StatusEffectInstance(StatusEffects.STRENGTH, 405, 1),
+                                    new StatusEffectInstance(StatusEffects.SPEED, 405, 1),
+                                    new StatusEffectInstance(StatusEffects.REGENERATION, 405, 1),
+                                    new StatusEffectInstance(StatusEffects.ABSORPTION, 405, 1)))
                     .build();
     public ModArmorItem(ArmorMaterial material, EquipmentSlot slot, Settings settings) {
         super(material, slot, settings);

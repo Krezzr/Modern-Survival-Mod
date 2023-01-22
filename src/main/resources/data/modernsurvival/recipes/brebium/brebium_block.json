@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#$%"
+  ],
+  "key": {
+    "#": {
+      "item": "modernsurvival:brebium_totem"
+    },
+    "$": {
+      "item": "modernsurvival:brebium_star"
+    },
+    "%": {
+      "item": "modernsurvival:brebium_eye"
+    }
+  },
+  "result": {
+    "item": "modernsurvival:brebium_block",
+    "count": 4
+  }
+}

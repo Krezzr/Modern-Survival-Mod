@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "modernsurvival:charcoal_block"
+    "modernsurvival:charcoal_block",
+    "modernsurvival:brebium_block"
   ]
 }

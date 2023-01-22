@@ -8,6 +8,7 @@ import net.krezzr.modernsurvival.block.ModBlocks;
 import net.krezzr.modernsurvival.command.ReturnHomeCommand;
 import net.krezzr.modernsurvival.command.SetHomeCommand;
 import net.krezzr.modernsurvival.event.ModPlayerEventCopyFrom;
+import net.krezzr.modernsurvival.item.ModItems;
 import net.minecraft.item.Items;
 
 public class ModRegistries {
@@ -22,6 +23,9 @@ public class ModRegistries {
         FuelRegistry registry = FuelRegistry.INSTANCE;
 
         registry.add(ModBlocks.CHARCOAL_BLOCK, 16000);
+        registry.add(ModBlocks.BREBIUM_BLOCK, 162000);
+        registry.add(ModItems.BREBIUM_INGOT, 18000);
+        registry.add(ModItems.BREBIUM_NUGGET, 2000);
         registry.add(Items.SUGAR_CANE, 100);
         registry.add(Items.WHEAT_SEEDS, 50);
     }

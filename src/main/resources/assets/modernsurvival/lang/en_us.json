@@ -3,11 +3,13 @@
   "itemGroup.modernsurvival.modernsurvivaltoolstab": "Modern Survival Tools",
   "itemGroup.modernsurvival.modernsurvivalarmorstab": "Modern Survival Armors",
   "itemGroup.modernsurvival.modernsurvivalweaponstab": "Modern Survival Weapons",
+  "itemGroup.modernsurvival.modernsurvivalitemstab": "Modern Survival Items",
 
   "enchantment.modernsurvival.smelting_enchantment": "Smelting",
   "enchantment.modernsurvival.smelting_enchantment.desc": "Automatically smelt blocks you mine.",
 
   "block.modernsurvival.charcoal_block": "Charcoal Block",
+  "block.modernsurvival.brebium_block": "Block of Brebium",
 
   "block.modernsurvival.glowing_white_wool": "Glowing White Wool",
   "block.modernsurvival.glowing_orange_wool": "Glowing Orange Wool",
@@ -122,5 +124,23 @@
   "item.modernsurvival.quartz_chestplate": "Quartz Chestplate",
   "item.modernsurvival.quartz_leggings": "Quartz Leggings",
   "item.modernsurvival.quartz_boots": "Quartz Boots",
-  "item.modernsurvival.quartz_horse_armor": "Quartz Horse Armor"
+  "item.modernsurvival.quartz_horse_armor": "Quartz Horse Armor",
+
+  "item.modernsurvival.brebium_star": "Brebium Star",
+  "item.modernsurvival.brebium_eye": "Brebium Eye",
+  "item.modernsurvival.brebium_totem": "Brebium Totem",
+  "item.modernsurvival.brebium_ingot": "Brebium Ingot",
+  "item.modernsurvival.brebium_nugget": "Brebium Nugget",
+  "item.modernsurvival.brebium_helmet": "Brebium Helmet",
+  "item.modernsurvival.brebium_chestplate": "Brebium Chestplate",
+  "item.modernsurvival.brebium_leggings": "Brebium Leggings",
+  "item.modernsurvival.brebium_boots": "Brebium Boots",
+  "item.modernsurvival.brebium_horse_armor": "Brebium Horse Armor",
+  "item.modernsurvival.brebium_multi_tools": "Brebium Multi Tools",
+  "item.modernsurvival.brebium_bow": "Brebium Bow",
+  "item.modernsurvival.brebium_pickaxe": "Brebium Pickaxe",
+  "item.modernsurvival.brebium_axe": "Brebium Axe",
+  "item.modernsurvival.brebium_hoe": "Brebium Hoe",
+  "item.modernsurvival.brebium_shovel": "Brebium Shovel",
+  "item.modernsurvival.brebium_sword": "Brebium Sword"
 }

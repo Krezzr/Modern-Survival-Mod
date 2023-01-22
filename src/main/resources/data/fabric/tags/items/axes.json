@@ -6,6 +6,7 @@
     "modernsurvival:amethyst_axe",
     "modernsurvival:quartz_axe",
     "modernsurvival:emerald_axe",
+    "modernsurvival:brebium_axe",
     "modernsurvival:wooden_multi_tools",
     "modernsurvival:stone_multi_tools",
     "modernsurvival:iron_multi_tools",
@@ -16,6 +17,7 @@
     "modernsurvival:copper_multi_tools",
     "modernsurvival:amethyst_multi_tools",
     "modernsurvival:quartz_multi_tools",
-    "modernsurvival:emerald_multi_tools"
+    "modernsurvival:emerald_multi_tools",
+    "modernsurvival:brebium_multi_tools"
   ]
 }

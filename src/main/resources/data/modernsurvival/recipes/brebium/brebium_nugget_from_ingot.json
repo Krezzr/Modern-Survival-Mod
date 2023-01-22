@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "modernsurvival:brebium_ingot"
+    }
+  ],
+  "result": {
+    "item": "modernsurvival:brebium_nugget",
+    "count": 9
+  }
+}

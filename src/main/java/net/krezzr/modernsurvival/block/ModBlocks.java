@@ -23,6 +23,9 @@ public class ModBlocks {
     public static final Block CHARCOAL_BLOCK = registerBlock("charcoal_block",
             new Block(FabricBlockSettings.of(Material.STONE, MapColor.BLACK).requiresTool().strength(5.0f, 6.0f)),
             ModItemGroup.MODERNSURVIVALBLOCKSTAB);
+    public static final Block BREBIUM_BLOCK = registerBlock("brebium_block",
+            new Block(FabricBlockSettings.of(Material.METAL, MapColor.DARK_AQUA).requiresTool().strength(7.0f, 8.0f)),
+            ModItemGroup.MODERNSURVIVALBLOCKSTAB);
 
     // Glowing Wool
     public static final Block GLOWING_WHITE_WOOL = registerBlock("glowing_white_wool",

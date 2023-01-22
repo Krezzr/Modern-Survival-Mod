@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "modernsurvival:brebium_ingot"
+    }
+  },
+  "result": {
+    "item": "modernsurvival:brebium_leggings"
+  }
+}

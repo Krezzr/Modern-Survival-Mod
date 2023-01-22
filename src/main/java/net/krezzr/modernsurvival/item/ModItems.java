@@ -6,6 +6,7 @@ import net.krezzr.modernsurvival.item.custom.*;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
@@ -241,6 +242,56 @@ public class ModItems {
     public static final Item QUARTZ_HORSE_ARMOR = registerItem("quartz_horse_armor",
             new HorseArmorItem(10, "quartz",
                     new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
+
+    // Brebium Items
+    public static final Item BREBIUM_STAR = registerItem("brebium_star",
+            new NetherStarItem(new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALITEMSTAB).rarity(Rarity.EPIC)));
+    public static final Item BREBIUM_EYE = registerItem("brebium_eye",
+            new ModEyeItem(new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALITEMSTAB)));
+    public static final Item BREBIUM_TOTEM = registerItem("brebium_totem",
+            new ModTotemItem(new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALITEMSTAB).rarity(Rarity.EPIC)));
+    public static final Item BREBIUM_INGOT = registerItem("brebium_ingot",
+            new Item(new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALITEMSTAB)));
+    public static final Item BREBIUM_NUGGET = registerItem("brebium_nugget",
+            new Item(new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALITEMSTAB)));
+    // Brebium Armor
+    public static final Item BREBIUM_HELMET = registerItem("brebium_helmet",
+            new ModArmorItem(ModArmorMaterials.BREBIUM, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
+    public static final Item BREBIUM_CHESTPLATE = registerItem("brebium_chestplate",
+            new ModArmorItem(ModArmorMaterials.BREBIUM, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
+    public static final Item BREBIUM_LEGGINGS = registerItem("brebium_leggings",
+            new ModArmorItem(ModArmorMaterials.BREBIUM, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
+    public static final Item BREBIUM_BOOTS = registerItem("brebium_boots",
+            new ModArmorItem(ModArmorMaterials.BREBIUM, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
+    public static final Item BREBIUM_HORSE_ARMOR = registerItem("brebium_horse_armor",
+            new HorseArmorItem(45, "brebium",
+                    new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALARMORSTAB)));
+    // Brebium custom tools
+    public static final Item BREBIUM_BOW = registerItem("brebium_bow",
+            new BowItem(new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALWEAPONSTAB).maxDamage(79239)));
+    public static final Item BREBIUM_MULTI_TOOLS = registerItem("brebium_multi_tools",
+            new ModMultiToolsItem(ModToolMaterials.BREBIUM, 25, -0.5f,
+                    new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB).maxDamage(90000)));
+    // Brebium tools
+    public static final Item BREBIUM_PICKAXE = registerItem("brebium_pickaxe",
+            new ModPickaxeItem(ModToolMaterials.BREBIUM, 16, -0.5f,
+                    new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB)));
+    public static final Item BREBIUM_AXE = registerItem("brebium_axe",
+            new ModAxeItem(ModToolMaterials.BREBIUM, 25, -0.5f,
+                    new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB)));
+    public static final Item BREBIUM_HOE = registerItem("brebium_hoe",
+            new ModHoeItem(ModToolMaterials.BREBIUM, -1, 0.0f,
+                    new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB)));
+    public static final Item BREBIUM_SHOVEL = registerItem("brebium_shovel",
+            new ShovelItem(ModToolMaterials.BREBIUM, 13, -0.5f,
+                    new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALTOOLSTAB)));
+    public static final Item BREBIUM_SWORD = registerItem("brebium_sword",
+            new SwordItem(ModToolMaterials.BREBIUM, 22, -0.0f,
+                    new FabricItemSettings().group(ModItemGroup.MODERNSURVIVALWEAPONSTAB)));
 
 
 

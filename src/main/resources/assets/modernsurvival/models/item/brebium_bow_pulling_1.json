@@ -1,0 +1,6 @@
+{
+    "parent": "modernsurvival:item/brebium_bow",
+    "textures": {
+        "layer0": "modernsurvival:item/brebium_bow_pulling_1"
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XYZ",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "modernsurvival:brebium_axe"
+    },
+    "Y": {
+      "item": "modernsurvival:brebium_shovel"
+    },
+    "Z": {
+      "item": "modernsurvival:brebium_pickaxe"
+    }
+  },
+  "result": {
+    "item": "modernsurvival:brebium_multi_tools"
+  }
+}
