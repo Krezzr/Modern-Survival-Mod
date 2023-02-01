@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
-
+    "modernsurvival:compressed_quartz_block",
+    "modernsurvival:compressed_oxidized_copper",
+    "modernsurvival:compressed_lapis_block",
+    "modernsurvival:compressed_iron_block",
+    "modernsurvival:compressed_copper_block",
+    "modernsurvival:compressed_coal_block",
+    "modernsurvival:compressed_charcoal_block"
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "modernsurvival:compressed_blackstone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blackstone",
+    "count": 9
+  }
+}

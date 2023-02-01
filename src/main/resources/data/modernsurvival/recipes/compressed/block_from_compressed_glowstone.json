@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "modernsurvival:compressed_glowstone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:glowstone",
+    "count": 9
+  }
+}

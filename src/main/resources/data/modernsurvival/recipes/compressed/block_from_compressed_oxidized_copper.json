@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "modernsurvival:compressed_oxidized_copper"
+    }
+  ],
+  "result": {
+    "item": "minecraft:oxidized_copper",
+    "count": 9
+  }
+}

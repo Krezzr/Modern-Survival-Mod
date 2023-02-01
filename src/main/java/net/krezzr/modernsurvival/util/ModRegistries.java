@@ -22,10 +22,13 @@ public class ModRegistries {
         ModernSurvival.LOGGER.info("Registering Fuels for " + ModernSurvival.MOD_ID);
         FuelRegistry registry = FuelRegistry.INSTANCE;
 
+        registry.add(ModBlocks.COMPRESSED_BREBIUM_BLOCK, 16000000);
+        registry.add(ModBlocks.COMPRESSED_CHARCOAL_BLOCK, 160000);
+        registry.add(ModBlocks.COMPRESSED_COAL_BLOCK, 160000);
         registry.add(ModBlocks.CHARCOAL_BLOCK, 16000);
-        registry.add(ModBlocks.BREBIUM_BLOCK, 162000);
-        registry.add(ModItems.BREBIUM_INGOT, 18000);
-        registry.add(ModItems.BREBIUM_NUGGET, 2000);
+        registry.add(ModBlocks.BREBIUM_BLOCK, 1600000);
+        registry.add(ModItems.BREBIUM_INGOT, 160000);
+        registry.add(ModItems.BREBIUM_NUGGET, 16000);
         registry.add(Items.SUGAR_CANE, 100);
         registry.add(Items.WHEAT_SEEDS, 50);
     }

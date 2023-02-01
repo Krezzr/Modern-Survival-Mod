@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "modernsurvival:compressed_quartz_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:quartz_block",
+    "count": 9
+  }
+}

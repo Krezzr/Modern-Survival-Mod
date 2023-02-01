@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
-
+    "modernsurvival:compressed_gravel",
+    "modernsurvival:compressed_mud",
+    "modernsurvival:compressed_soul_soil",
+    "modernsurvival:compressed_sand",
+    "modernsurvival:compressed_dirt",
+    "modernsurvival:compressed_soul_sand"
   ]
 }

@@ -11,11 +11,11 @@ public class ModItemGroup {
     public static final ItemGroup MODERNSURVIVALBLOCKSTAB = FabricItemGroupBuilder.build(new Identifier(ModernSurvival.MOD_ID, "modernsurvivalblockstab"),
             () -> new ItemStack(ModBlocks.CHARCOAL_BLOCK));
     public static final ItemGroup MODERNSURVIVALTOOLSTAB = FabricItemGroupBuilder.build(new Identifier(ModernSurvival.MOD_ID, "modernsurvivaltoolstab"),
-            () -> new ItemStack(ModItems.EMERALD_PICKAXE));
+            () -> new ItemStack(ModItems.BREBIUM_MULTI_TOOLS));
     public static final ItemGroup MODERNSURVIVALARMORSTAB = FabricItemGroupBuilder.build(new Identifier(ModernSurvival.MOD_ID, "modernsurvivalarmorstab"),
-            () -> new ItemStack(ModItems.EMERALD_CHESTPLATE));
+            () -> new ItemStack(ModItems.BREBIUM_CHESTPLATE));
     public static final ItemGroup MODERNSURVIVALWEAPONSTAB = FabricItemGroupBuilder.build(new Identifier(ModernSurvival.MOD_ID, "modernsurvivalweaponstab"),
-            () -> new ItemStack(ModItems.EMERALD_SWORD));
+            () -> new ItemStack(ModItems.BREBIUM_SWORD));
     public static final ItemGroup MODERNSURVIVALITEMSTAB = FabricItemGroupBuilder.build(new Identifier(ModernSurvival.MOD_ID, "modernsurvivalitemstab"),
-            () -> new ItemStack(ModItems.BREBIUM_INGOT));
+            () -> new ItemStack(ModItems.BREBIUM_STAR));
 }

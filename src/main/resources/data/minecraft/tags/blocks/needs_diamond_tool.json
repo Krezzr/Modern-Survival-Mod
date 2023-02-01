@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "modernsurvival:brebium_block"
+    "modernsurvival:brebium_block",
+    "modernsurvival:compressed_brebium_block",
+    "modernsurvival:compressed_netherite_block",
+    "modernsurvival:compressed_obsidian"
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "modernsurvival:compressed_sand"
+    }
+  ],
+  "result": {
+    "item": "minecraft:sand",
+    "count": 9
+  }
+}
